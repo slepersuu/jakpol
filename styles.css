@@ -10,25 +10,28 @@
 .logo{
     width: 18rem;
 }
-@media all and (max-width: 900px){
-    .logo{
-        width: 13rem;
-    }
-    nav {
-        text-align: center;
-    }
-    .title-container{
-        padding: 3% 0 3%;
-        text-align: center;
-    }
-} 
 /* Title section */
 #title{
     background-color: #24519d;
 }
-
 .title-desc{
     color: #fff;
     font-size: 4rem;
     line-height: 1.5;
 }
+@media all and (max-width: 900px){
+    
+    nav {
+        text-align: center;
+    }
+    .title-container{
+        padding: 3% 3% 3%;
+        text-align: center;
+    }
+    .title-desc{
+        
+    font-size: 3rem;
+    }
+} 
+
+
