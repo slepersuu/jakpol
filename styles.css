@@ -4,14 +4,14 @@
 .logo{
     width: 18rem;
 }
-@media all and (max-width: 900px){
+/* @media all and (max-width: 900px){
     .logo{
         width: 15rem;
     }
     nav {
         text-align: center;
     }
-}
+} */
 /* Title section */
 #title{
     background-color: #24519d;
