@@ -4,7 +4,7 @@
 .logo{
     width: 18rem;
 }
-@media (max-width: 900px){
+@media all and (max-width: 900px){
     .logo{
         width: 15rem;
     }
