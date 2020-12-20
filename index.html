@@ -14,24 +14,16 @@
 <body>
     <section id="navigation">
 
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light row">
+        <!-- <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light row no-padding">
                 <a class="navbar-brand col-md-6"><img class="logo" src="images/logo1.png"></a>
-                <div class="col-md-6 hamburger">
-                    <!-- <img class="navbar-brand" src="images/logo1.png"/> -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
+                <div class="navbar col-md-6" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="">O nas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#pricing">Oferta</a>
+                            <a class="nav-link" href="">Oferta</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">Kontakt</a>
@@ -39,12 +31,27 @@
                     </ul>
                 </div>
             </nav>
-        </div class="container-fluid">
+        </div class="container-fluid"> -->
+        <div class="container-fluid row navigation-container">
+            <a class="col-md-6 logo-container"><img class="logo" src="images/logo1.png"></a>
+            <div class="navbar-light navigation col-md-6">
+                <ul class="navi-list">
+                    <li class="navi-item">
+                        <a class="navi-link" href="">O nas</a>
+                    </li>
+                    <li class="navi-item">
+                        <a class="navi-link" href="">Oferta</a>
+                    </li>
+                    <li class="navi-item">
+                        <a class="navi-link" href="">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
     <section id="title">
         <div class="container-fluid title-container">
             <div class="row">
-                <!-- <img class="bgimg" src="images/background.jpg"> -->
                 <div class="col-lg-6">
                     <h1 class="title-desc">Nowoczesne rozwiązania dla Twojego bezpieczeństwa.</h1>
                 </div>
@@ -53,6 +60,12 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="onas">
+
+    </section>
+    <section id="oferta">
+
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
