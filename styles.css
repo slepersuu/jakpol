@@ -4,9 +4,9 @@
 }
 
 /* Navbar  */
-.container-fluid{
+/* .container-fluid{
     padding: 3% 15% 3%;
-}
+} */
 .logo{
     width: 18rem;
     
@@ -86,7 +86,7 @@ margin:auto;
     }
     /* Test navigation */
     .navigation{
-        text-align:center;
+        text-align: center;
     }
     .navi-list{
         margin-bottom: 0;
