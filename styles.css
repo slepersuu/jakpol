@@ -4,9 +4,9 @@
 }
 
 /* Navbar  */
-/* .container-fluid{
+.container-fluid{
     padding: 3% 15% 3%;
-} */
+} 
 .logo{
     width: 18rem;
     
@@ -62,7 +62,7 @@ margin:auto;
 
 
 
-@media all and (max-width: 900px){
+@media all and (max-width: 700px){
     
     /* nav {
         text-align: center;
@@ -70,7 +70,7 @@ margin:auto;
     .logo{
         margin:auto;
     }
-    .title-container{
+    .title-container .navigation-container{
         padding: 3% 3% 3%;
         text-align: center;
     }
@@ -91,9 +91,7 @@ margin:auto;
     .navi-list{
         margin-bottom: 0;
     }
-    .navigation-container{
-        margin:auto;
-    }
+   
     .logo-container{
         text-align: center;
         margin:auto;
