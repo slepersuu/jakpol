@@ -91,6 +91,9 @@ margin:auto;
     .navi-list{
         margin-bottom: 0;
     }
+    .navigation-container{
+        margin:auto;
+    }
     .logo-container{
         text-align: center;
         margin:auto;
