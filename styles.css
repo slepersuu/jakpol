@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Navbar  */
@@ -58,6 +59,26 @@ margin:auto;
 }
 .hamburger{
     display: none;
+}
+
+/* Oferta */
+
+
+.card-title{
+    text-align:center;
+}
+.custom-card{
+    color:#fff;
+    /* background-color:#17366d; */
+    background-color: #2b2a29;
+    /* border-radius:3%; */
+    min-height: 300px;
+    
+    
+}
+.card{
+    border:none;
+    margin: 3% 0 3%;
 }
 
 
