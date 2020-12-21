@@ -106,6 +106,9 @@ margin:auto;
     transition-duration: 0.5s;
    
 }
+.card-text{
+    color: #909090;
+}
 
 
 
