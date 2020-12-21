@@ -77,8 +77,8 @@ margin:auto;
 
 
 .card-title{
-    text-align:center;
     font-size: 3.2rem;
+    margin-bottom: 10%;
 }
 .custom-card{
     color:#fff;
@@ -89,6 +89,7 @@ margin:auto;
       
 }
 .card{
+    text-align:center;
     border:none;
     margin: 3% 0 3%;
 }
