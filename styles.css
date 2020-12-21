@@ -88,10 +88,23 @@ margin:auto;
     min-height: 300px;
       
 }
+.custom-card:hover{
+    background-color:#222120;
+}
+.custom-card:hover .custom-btn{
+    background-color: #0d2d99;
+    color:white;
+    border:none;
+}
 .card{
     text-align:center;
     border:none;
     margin: 3% 0 3%;
+}
+.custom-btn{
+    margin-top: 8%;
+    transition-duration: 0.5s;
+   
 }
 
 
