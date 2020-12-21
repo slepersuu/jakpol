@@ -80,6 +80,7 @@ margin:auto;
 
 .card-title{
     text-align:center;
+    font-size: 3.2rem;
 }
 .custom-card{
     color:#fff;
@@ -87,8 +88,7 @@ margin:auto;
     background-color: #2b2a29;
     /* border-radius:3%; */
     min-height: 300px;
-    
-    
+      
 }
 .card{
     border:none;
