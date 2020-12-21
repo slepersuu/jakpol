@@ -16,6 +16,18 @@
     padding:0;
 }
 
+/* Small Navbar */
+#nav-small{
+    padding: 1% 15% 1%;
+    display: none;
+    position:fixed;
+    background-color: #fff;
+    z-index:1;
+}
+.logo-small{
+    width:10rem;
+}
+
 /* Test navbar */
 .navigation-container{
 margin:auto;
