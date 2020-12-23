@@ -16,5 +16,10 @@ $(document).ready(function () {
 });
 
 $(".card").on("swipe",()=>{
+    console.log("swiped");
     $(this).addClass("hover");
 }) 
+
+$(".card").on("touch",()=>{
+    $(this).addClass("hover");
+})
