@@ -1,8 +1,7 @@
 const bigNavBar = $("#nav-big");
 const smallNavBar = $("#nav-small");
 window.onscroll = ()=>{
-    scrollValue = $(window).scrollTop();
-    if(scrollValue > bigNavBar.height()){
+    if($(window).scrollTop() > bigNavBar.height()){
         smallNavBar.attr("style","display:block");
     }
     else{
@@ -10,3 +9,12 @@ window.onscroll = ()=>{
     }
     
 }
+$(document).ready(function () {
+    if($(window).scrollTop() > bigNavBar.height()){
+        smallNavBar.attr("style","display:block");
+    }
+});
+
+$(".card").on("swipe",()=>{
+    $(this).addClass("hover");
+}) 
