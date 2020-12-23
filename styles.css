@@ -83,10 +83,11 @@ margin:auto;
 /* o nas */
 
 .about-desc{
-    background-color: #2b2a29;
+    /* background-color: #2b2a29; */
     /* background-color: #17356a; */
     padding: 3% 2%;
-    color:#fff;
+    /* color:#fff; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     
 }
 .about-desc .soft{
@@ -124,13 +125,29 @@ margin:auto;
     min-height: 300px;
       
 }
+ /* jasny styl */ 
+ .custom-card{
+    background-color: #fff;
+    color: #2b2a29;
+    transition-duration: 0.5s;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); */
+} 
 .custom-card:hover{
-    background-color:#222120;
+     /* background-color:#222120;  */
+    /* color: #fff;   */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19); */
+     /* background-color: #24519d;  */
+     /* background-color:  #db200b; */
 }
 .custom-card:hover .custom-btn{
-    background-color: #0d2d99;
-    color:white;
-    border:none;
+    /* background-color: #0d2d99; */
+    /* background-color: #24519d;  */
+     border-color: #fff; 
+     color:white; 
+    /* border: none; */
+    background-color: #db200b;
+    
 }
 .card{
     text-align:center;
@@ -141,6 +158,13 @@ margin:auto;
     margin-top: 8%;
     transition-duration: 0.5s;
    
+}
+.custom-btn{
+    /* background-color: #db200b; */
+    /* color: white; */
+    /* border-color: #db200b;
+    color: #db200b; */
+    
 }
 .card-text{
     color: #909090;
