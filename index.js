@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 $(".card").on("swipe",()=>{
     console.log("swiped");
-    $(this).addClass("hover");
+    $(this).hide();
 }) 
 
 $(".card").on("touch",()=>{
