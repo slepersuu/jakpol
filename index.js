@@ -23,3 +23,10 @@ $(".card").on("swipe",()=>{
 $(".card").on("touch",()=>{
     $(this).addClass("hover");
 })
+$(".card").on("tap",()=>{
+    $(this).addClass("hover");
+})
+
+$(".card").on("mouseenter",()=>{
+    console.log("kasztan");
+})
