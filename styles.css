@@ -29,6 +29,10 @@
 .logo-small{
     width:9rem;
 }
+.navbar{
+    padding-left:0;
+    padding-right: 0;
+}
 
 /* Test navbar */
 .navigation-container{
@@ -40,6 +44,7 @@ margin:auto;
     flex-direction: column;
     justify-content: center;
     text-align: right;
+    padding: 0;
 }
 .navi-item{
     margin-top:4%;
@@ -48,6 +53,9 @@ margin:auto;
 }
 .navi-link{
     color:#808080;
+}
+.last{
+    padding-right: 0 !important;
 }
 .navi-link:hover{
     color:#505050;
@@ -70,8 +78,36 @@ margin:auto;
     color: #fff;
     font-size: 4rem;
     line-height: 1.5;
+    /* opacity: 0.9; */
 }
+/* o nas */
 
+.about-desc{
+    background-color: #2b2a29;
+    background-color: #17356a;
+    padding: 3% 2%;
+    color:#fff;
+    
+}
+.about-desc .soft{
+   color: #909090;
+}
+/* .about-desc p{
+    border:#24519d solid 2px;
+    padding: 2%;
+} */
+.underline{
+    margin-top: -1%;
+    border-color: red;
+    width: 30%;
+}
+.about-row{
+    margin-left:0;
+   
+}
+.about-services{
+    color:#24519d;
+}
 
 /* Oferta */
 
