@@ -51,6 +51,9 @@ margin:auto;
     display: inline-block;
     padding: 0 2%;
 }
+.navigation .navi-item{
+    font-size: 1.3rem;
+}
 .navi-link{
     color:#808080;
 }
@@ -58,9 +61,9 @@ margin:auto;
     padding-right: 0 !important;
 }
 .navi-link:hover{
-    color:#505050;
+    color:#2b2a29;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
 }
 .logo-container{
     padding:0;
