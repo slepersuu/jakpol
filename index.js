@@ -1,5 +1,14 @@
 const bigNavBar = $("#nav-big");
 const smallNavBar = $("#nav-small");
+const aboutDesc = $(".about-desc");
+let height = 0;
+$(".about-desc p").map(function(){
+    height+=$(this).height();
+    console.log(height);
+})
+$(".services-col").map(function(){
+    $(this).height(height);
+})
 window.onscroll = ()=>{
     if($(window).scrollTop() > bigNavBar.height()){
         smallNavBar.attr("style","display:block");
@@ -15,18 +24,3 @@ $(document).ready(function () {
     }
 });
 
-$(".card").on("swipe",()=>{
-    console.log("swiped");
-    $(this).hide();
-}) 
-
-$(".card").on("touch",()=>{
-    $(this).addClass("hover");
-})
-$(".card").on("tap",()=>{
-    $(this).addClass("hover");
-})
-
-$(".card").on("mouseenter",()=>{
-    console.log("kasztan");
-})

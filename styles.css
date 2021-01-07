@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+h1,h2,h3 {
+    font-family: 'Anton', sans-serif;
 }
 
 
@@ -37,6 +43,7 @@
 /* Test navbar */
 .navigation-container{
 margin:auto;
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 12px 0 rgba(0, 0, 0, 0.19); 
     
 }
 .navigation{
@@ -83,6 +90,11 @@ margin:auto;
     line-height: 1.5;
     /* opacity: 0.9; */
 }
+.title-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* o nas */
 
 .about-desc{
@@ -103,6 +115,7 @@ margin:auto;
 .underline{
     margin-top: -1%;
     border-color: red;
+    border-width: 2px;
     width: 30%;
 }
 .about-row{
@@ -111,6 +124,7 @@ margin:auto;
 }
 .about-services{
     color:#24519d;
+    min-height: 50%;
 }
 
 /* Oferta */
@@ -173,6 +187,20 @@ margin:auto;
     color: #909090;
 }
 
+/* Contact section */
+
+.contact-container{
+
+}
+
+
+/* Footer */
+.footer{
+    padding: 1.5% 0 1.5%;
+    background-color: #24519d;
+    color: #fff;
+    text-align: center;
+}
 
 
 @media all and (max-width: 700px){
